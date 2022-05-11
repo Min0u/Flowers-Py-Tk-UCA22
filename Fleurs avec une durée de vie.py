@@ -11,7 +11,7 @@ mon_app.title('Flowers')
 surface_dessin = tk.Canvas(mon_app, width = Largeur, height = Hauteur, bg = 'white')
 surface_dessin.pack(padx = 5, pady = 5)
 
-tk.messagebox.showinfo("Coucou !", "Cliquer pour faire apparaitre des fleurs :) \nSa durée de vie est de quelques secondes après elle disparaitra :'(")
+tk.messagebox.showinfo("Coucou !", "Cliquez pour faire apparaitre des fleurs :) \nSa durée de vie est de quelques secondes après elle disparaitra :'(")
 
 fleurs = list()
 
