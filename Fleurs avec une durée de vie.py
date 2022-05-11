@@ -23,7 +23,7 @@ def clic(event):
     nvlFleur.dessiner()
     fleurs.append(nvlFleur)
 
-# En cliquant s'exécute clic
+# En cliquant clic s'exécute
 surface_dessin.bind('<Button-1>', clic)
 surface_dessin.pack(padx =5, pady =5)
 
