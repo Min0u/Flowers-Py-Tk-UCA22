@@ -23,6 +23,7 @@ def clic(event):
     nvlFleur.dessiner()
     fleurs.append(nvlFleur)
 
+# Cliquer exécute clic
 surface_dessin.bind('<Button-1>', clic)
 surface_dessin.pack(padx =5, pady =5)
 
@@ -45,6 +46,7 @@ class Fleur:
         # Centre de la Fleur
         self.ovals.append(surface_dessin.create_oval(x,y,xd,yd,fill='yellow'))
 
+# Durée de vie
 def tictoc():
     for fleur in fleurs:
         fleur.age += 1
