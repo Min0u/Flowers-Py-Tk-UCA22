@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import messagebox
 
 Hauteur = 1000
 Largeur = 1000
